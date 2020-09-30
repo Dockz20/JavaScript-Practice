@@ -1,0 +1,8 @@
+// Area of an arrow
+//https://www.codewars.com/kata/589478160c0f8a40870000bc/train/javascript
+
+function arrowArea(a,b) {
+  if (a > 0 && b > 0){
+    return (a / 2) * (b / 2);
+  }
+}
