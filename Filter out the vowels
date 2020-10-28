@@ -1,0 +1,4 @@
+function vowelFilter (letters) {
+  var vowels = ["a", "e", "i", "o", "u"];
+  return letters.filter(el => !vowels.includes(el));
+}
