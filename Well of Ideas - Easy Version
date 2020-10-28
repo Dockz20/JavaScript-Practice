@@ -1,0 +1,5 @@
+function well(x){
+  let good = x.filter(el => el === 'good').length;
+  return good > 2 ? 'I smell a series!': good >= 1? 'Publish!' : 'Fail!';
+
+}
